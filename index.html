@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>个人简历</title>
+		<!--mobile apps-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Hipster Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+		<script type="application/x-javascript">
+			addEventListener("load", function() {
+				setTimeout(hideURLbar, 0);
+			}, false);
+
+			function hideURLbar() {
+				window.scrollTo(0, 1);
+			}
+		</script>
+		<!--mobile apps-->
+		<!--Custom Theme files -->
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+		<!-- //Custom Theme files -->
+		<!-- js -->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<!-- //js -->
+		<!--animate-->
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<!--//end-animate-->
+		<!-- start-smoth-scrolling-->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event) {
+					event.preventDefault();
+					$('html,body').animate({
+						scrollTop: $(this.hash).offset().top
+					}, 1000);
+				});
+			});
+		</script>
+		<!--//end-smoth-scrolling-->
+		<style type="text/css">
+			a:focus {
+				text-decoration: none;
+				border: none;
+				outline: none
+			}
+			
+			p {
+				color: #000000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--navigation-->
+		<div class="top-nav">
+			<div class="container">
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left cl-effect-5">
+						<li class="active">
+							<a href="index.html"><span data-hover="主页">主页</span></a>
+						</li>
+						<li>
+							<a href="#about" class="scroll"><span data-hover="关于我">关于我</span></a>
+						</li>
+						<li>
+							<a href="#gallery" class="scroll"><span data-hover="个人技能">个人技能</span></a>
+						</li>
+						<li>
+							<a href="#services" class="scroll"><span data-hover="项目经验">项目经验</span></a>
+						</li>
+						<li>
+							<a href="#contact" class="scroll"><span data-hover="备案信息">备案信息</span></a>
+						</li>
+						<li class="phn-no wow fadeInRight animated" data-wow-delay=".5s">
+							<h4>Tel : 166 0406 0212 </h4>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--//navigation-->
+		<!--banner-->
+		<div id="home" class="banner">
+
+			<div class="banner-text">
+				<!--banner Slider starts Here-->
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function() {
+						// Slideshow 3
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: true,
+							speed: 500,
+							namespace: "callbacks",
+							before: function() {
+								$('.events').append("<li>before event fired.</li>");
+							},
+							after: function() {
+								$('.events').append("<li>after event fired.</li>");
+							}
+						});
+
+					});
+				</script>
+				<!--//End-slider-script-->
+				<div id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="banner-text-info">
+								<h3 class="bnr-text">求职意向 : <br><span>&nbsp;&nbsp;JavaWeb </span>&nbsp;&nbsp;实习</h3>
+							</div>
+						</li>
+						<li>
+							<div class="banner-text-info">
+								<h3 class="bnr-text">求职意向 : <br><span>&nbsp;&nbsp;&nbsp;&nbsp;Java后端 </span>&nbsp;&nbsp;实习</h3>
+							</div>
+						</li>
+						<li>
+							<div class="banner-text-info">
+								<h3 class="bnr-text">求职意向 : <br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web前端 </span>&nbsp;&nbsp;实习</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="container">
+					<h2 class="wow fadeInUpBig animated" data-wow-delay=".5s">个人简历</h2>
+				</div>
+			</div>
+		</div>
+		<!--//banner-->
+		<!--welcome-->
+		<div class="welcome" id="about">
+			<div class="container">
+				<h3 class="title wow fadeInDown animated" data-wow-delay=".5s">关于我 </h3>
+				<h4>渤海大学---软件开发专业---本科</h4>
+				<p class="w-text">学习前端开发和Java后端开发是一个非常愉快的过程</p>
+				<p class="w-text">能将自己的构想以一个网页的形式实现出来，并且用业务逻辑让之变得充实，再用后端的知识实现各个模块的功能，</p>
+				<p class="w-text">并不断的完善，十分的有趣。刚刚走出大学的我，对未来的工作充满期待，并且十分享受团队合作所带来的成就感和</p>
+				<p class="w-text">满足感。多次社团工作经历让本人对新环境有较强的适应能力，抗压能力。兼职的经历让我养成了吃苦耐劳的精神。</p>
+				<p class="w-text">为人开朗并沉稳，对生活有热情。</p>
+				<div class="welcome-row">
+					<div class="col-md-4 welcome-grids grid wow zoomIn animated" data-wow-delay=".5s">
+						<figure class="effect-ming">
+							<img src="images/java.jpg" alt="Java">
+							<figcaption>
+								<h5> <span> </span></h5>
+								<p>熟练掌握Java基础知识，传统网战的jsp开发模式和ajax前后端分离式开发模式，掌握基本实现原理 </p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-4 welcome-grids grid wow zoomIn animated" data-wow-delay=".5s">
+						<figure class="effect-ming">
+							<img src="images/web.png" alt="Web">
+							<figcaption>
+								<p>熟练掌握html、css、js等前端基础，对html5有一定了解，熟练使用jquery、bootstrap、了解vue框架；熟练使用jquery实现前后端分离式开发，ajax异步请求后端数据接口</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-4 welcome-grids grid wow zoomIn animated" data-wow-delay=".5s">
+						<figure class="effect-ming">
+							<img src="images/oracle.png" alt="Oracle">
+							<figcaption>
+								<h5> <span> </span></h5>
+								<p>熟练使用Oracle数据库，SQL语句开发，熟悉MySQL数据库 </p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//welcome-->
+
+		<!--Skills-->
+		<div class="gallery" id="gallery">
+			<div class="container" style="padding-bottom: 8em;padding-top: 4em;">
+				<h3 class="title wow fadeInDown animated" data-wow-delay=".5s" style="padding-bottom: 0.6em;">专业技能  </h3>
+				<p class="w-text" style="width: 60%;">喜欢学习了解各种有趣的东西，对未知的事物充满好奇，大学期间自学了Linux系统的简单操作，了解信息安全的基本知识，熟练掌握PS抠图和五笔输入法 </p>
+				<div class="team-row">
+					<div class="col-md-3 team-grids wow fadeInUp animated" data-wow-delay=".5s">
+						<h5>Linux</h5>
+						<p>系统安装-系统分区，了解命令格式与目录处理命令，文本编辑器Vim的基本操作，利用aircrack-ng工具破解wifi密码</p>
+						<div class="team-img">
+							<img src="images/t1.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-md-3 team-grids team-mdl wow fadeInUp animated" data-wow-delay=".5s">
+						<h5>PS</h5>
+						<p>制作gif动态图片，了解Alpha通道和蒙版，熟练使用钢笔进行无损抠图和色彩范围抠图，了解滤镜的使用</p>
+						<div class="team-img">
+							<img src="images/t2.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-md-3 team-grids team-mdl1 wow fadeInUp animated" data-wow-delay=".5s">
+						<h5>信息安全</h5>
+						<p>了解信息安全的三要素，了解安全框架的五个安全等级，利用U盘启动工具进行window系统密码的修改</p>
+						<div class="team-img">
+							<img src="images/t3.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-md-3 team-grids wow fadeInUp animated" data-wow-delay=".5s">
+						<h5>五笔输入法</h5>
+						<p>熟悉字根，了解五笔编码的规律，掌握拆字原则，知道五个笔划在键盘上的分布特点，可以准确的进行单个字的盲打</p>
+						<div class="team-img">
+							<img src="images/t4.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//gallery-->
+
+		<!--work-->
+		<div class="work" id="services">
+			<h3 class="title wow fadeInDown animated" data-wow-delay=".5s" style="padding-top: 1em;padding-bottom: 0.6em;">项目经验  </h3>
+			<div class="col-md-6 work-grids work-img">
+			</div>
+			<div class="col-md-6 work-grids">
+				<h3 class="wow zoomIn animated" data-wow-delay=".5s" style="color: #101010;"><a href="else/01_zhicen/index.html" target="_blank">仿制大连志森网站主页</a></h3>
+				<p class="wow fadeInDown animated" data-wow-delay=".7s" style="width: 100%">使用DIV + CSS实现网面整体布局，是对于Web基础的一次综合练习 </p>
+				<ul class="wow fadeInDown animated" data-wow-delay=".7s">
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发时间 ：2017：3月</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发工具 ：Hbuilder</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发环境 ：谷歌游览器，火狐游览器，IE游览器</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 技术框架 ：HTML，CSS，CSS3，JavaScript</span>
+					</li>
+					<!-- pop-up-box -->
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!--//pop-up-box -->
+					<script>
+						$(document).ready(function() {
+							$('.popup-with-zoom-anim').magnificPopup({
+								type: 'inline',
+								fixedContentPos: false,
+								fixedBgPos: true,
+								overflowY: 'auto',
+								closeBtnInside: true,
+								preloader: false,
+								midClick: true,
+								removalDelay: 300,
+								mainClass: 'my-mfp-zoom-in'
+							});
+						});
+					</script>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="work">
+			<div class="col-md-6 work-grids work-grids-left">
+				<h3 class="wow zoomIn animated" data-wow-delay=".5s"><a href="else/02_xy/main.html" target="_blank">XY手机助手/移动端&PC端</a></h3>
+				<p class="wow fadeInDown animated" data-wow-delay=".7s" style="width: 100%">仿制XY手机助手，使用锚点连接实现页面滚动、jquery实现滚动动画、wow插件实现动态效果，页面兼容大部分pc端游览器和移动端浏览器 </p>
+				<ul class="wow fadeInDown animated" data-wow-delay=".7s">
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发时间 ：2017：4月</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发工具 ：Hbuilder</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发环境 ：谷歌游览器，火狐游览器，IE游览器</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 技术框架 ：HTML，CSS，CSS3，JavaScript，HTML5，jQuery，wow插件</span>
+					</li>
+
+				</ul>
+			</div>
+			<div class="col-md-6 work-grids work-img work-img-btm">
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="work" id="services">
+			<div class="col-md-6 work-grids work-img2">
+			</div>
+			<div class="col-md-6 work-grids">
+				<h3 class="wow zoomIn animated" data-wow-delay=".5s" style="color: #101010;"><a href="else/03_hr/index.html" target="_blank">人力资源管理系统</a></h3>
+				<a href="#small-dialog" class="popup-with-zoom-anim">
+					<p class="wow fadeInDown animated" data-wow-delay=".7s" style="width: 100%">整体结构采用三层架构，MVC开发模式，采用B/S结构，传统JSP技术和ajax分离式开发，实现人力资源管理的全部功能...</p>
+				</a>
+				<ul class="wow fadeInDown animated" data-wow-delay=".7s">
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发时间 ：2017：5月</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发工具 ：Eclipse、Hbuilder、PLSQL Developer、Notepad、Photoshop</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 开发环境 ：Tomcat 8.0、Oracle 11g、Chrome、Firefox、win7</span>
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-chevron-right"> 技术框架 ：JavaEE、JDBC、HTML5、CSS3、jQuery、Bootstrap、Vue</span>
+					</li>
+					<div id="small-dialog" class="mfp-hide work-text" style="width: 90%;">
+						<h5>详细介绍</h5>
+						<p>整体结构采用三层架构，MVC开发模式，采用B/S结构，传统JSP技术和ajax分离式开发，实现人</p>
+						<p>力资源管理的全部功能，包含用户登录功能，利用base64生成用户头像，采用H5 localstorage</p>
+						<p>进行离线存储，在线进行头像裁剪缩放，数据字典的部门数据维护，职务数据维护，员工信息数</p>
+						<p>据维护，利用后端进行分页检索，ajax请求数据在前端动态生成dom结构，数据分析展示功能，</p>
+						<p>利用json数据离线存储，在线进行头像裁剪缩放，数据字典的部门数据维护，职务数据维护，员</p>
+						<p>工信息数据维护，利用后端进行分页检索，ajax请求数据在前端动态生成dom结构，数据分析展</p>
+						<p>示功能，利用后端json数据动态生成echarts图表，公司图库功能，利用二进制流进行图片传输 </p>
+						<p>web前端采用瀑布流布局，ajax异步上传图片，服务器文件下载，利用H5显示上传进度，整体项</p>
+						<p>目前端采用bootstra，jquery实现前端业务逻辑以及ajax后端交互，layer实现用户提示和模态层展现。</p>
+
+					</div>
+					<!-- pop-up-box -->
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+					<!--//pop-up-box -->
+					<script>
+						$(document).ready(function() {
+							$('.popup-with-zoom-anim').magnificPopup({
+								type: 'inline',
+								fixedContentPos: false,
+								fixedBgPos: true,
+								overflowY: 'auto',
+								closeBtnInside: true,
+								preloader: false,
+								midClick: true,
+								removalDelay: 300,
+								mainClass: 'my-mfp-zoom-in'
+							});
+						});
+					</script>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<!--//work-->
+
+		<!--contact-->
+		<div id="contact" class="contact" style="margin-top:0.5em;">
+			<!--footer-->
+			<div class="container">
+				<div class="footer wow fadeInUp animated" data-wow-delay=".5s" style="margin-top: -0.1em;margin-bottom: -1em;">
+					<p>Copyright &copy; Dazks 2018
+						<a target="_blank" href="http://www.miitbeian.gov.cn">辽ICP备18006963号-1</a>
+						<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21079902000036" rel="nofollow">辽公网安备 21079902000036号</a>
+					</p>
+				</div>
+			</div>
+			<!--//footer-->
+		</div>
+		<!--//contact-->
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				$().UItoTop({
+					easingType: 'easeOutQuart'
+				});
+
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+		<script src="js/bootstrap.js"></script>
+		<script src="js/radialIndicator.js"></script>
+	</body>
+
+</html>

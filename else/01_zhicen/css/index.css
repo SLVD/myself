@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+/*统一设置*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+ul,li {
+	list-style-type: none;
+}
+
+/*清除浮动*/
+.clearfix {
+	clear: both;
+}
+
+/*网页头部*/
+#header {
+	width: 960px;
+	height: 70px;	
+	margin: 0 auto;	
+}
+
+/*主导航栏*/
+#nav {
+	min-width: 960px;
+	height: 50px;
+	background: #47a3da;
+	line-height: 50px;
+}
+
+#nav ul {
+	height: 50px;
+	width: 960px;	
+	margin: 0 auto;	
+}
+
+#nav ul li {
+	float: left;
+	width: 160px;
+	text-align: center;
+}
+
+#nav ul li a {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	display: block;
+}
+
+#nav ul li a:hover {
+	background: #e6f2fa;
+	color: #47a3da;
+}
+
+/*高亮导航*/
+.active {
+	background: #0068b7;
+}
+
+/*banner*/
+#banner {
+	height: 250px;
+	background: url(../images/02.jpg) no-repeat;	
+}
+
+/*主内容区*/
+#main {
+	width: 960px;
+	padding-top: 30px;
+	margin: 0 auto;	
+}
+
+/*新闻事件，产品方案，人才派遣*/
+#news,#pro,#tal {
+	width: 320px;
+	float: left;
+}
+
+#news h3,#pro h3,#tal h3 {
+	border-left: 5px solid #0068b7;
+	padding-left: 10px;
+	color: #666;
+}
+
+.lanmu {
+	padding: 20px 0;
+}
+
+#news ul,#pro ul,#tal ul {
+	list-style-image: url(../images/dot.jpg);
+	width: 90%;
+	margin:0 5%;
+}
+
+#news a,#pro a,#tal a {
+	line-height: 20px;
+}
+
+#news a:hover,#pro a:hover,#tal a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/*案例，招聘，公益*/
+#anli,#zhaopin,#gongyi {
+	width: 320px;
+	float: left;
+}
+
+#anli h3,#zhaopin h3,#gongyi h3 {
+	color: #0068b7;	
+	line-height: 40px;
+}
+
+#anli ul,#zhaopin ul,#gongyi ul {
+	list-style-image: url(../images/dot.jpg);
+}
+
+#anli a,#zhaopin a,#gongyi a {
+	line-height: 20px;	
+}
+
+#anli a:hover,#zhaopin a:hover,#gongyi a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.icon1 {
+	background: url(../images/icon1.png) no-repeat left center;
+}
+
+.icon2 {
+	background: url(../images/icon2.png) no-repeat left center;
+}
+
+.icon3 {
+	background: url(../images/icon3.png) no-repeat left center;
+}
+
+#anli li,#zhaopin li,#gongyi li {
+	margin-left: 100px;
+}
+
+/*合作伙伴*/
+#hezuo {
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+#hezuo h3 {
+	color: #0068b7;
+	line-height: 40px;
+}
+
+/*滚动图片*/
+#hezuo img {		
+	float: left;
+}
+
+/*网页底部*/
+#footer {
+	height: 150px;
+	background: #4b4b4b;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 14px;
+}
+
+#footer .wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#footer .wrap dl {
+	width: 320px;
+	float: left;
+}
+
+#footer .wrap dl dt {
+	font-weight: bold;
+	line-height: 20px;
+}
